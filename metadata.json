@@ -3,15 +3,11 @@
   "version": "1.2.0",
   "author": "ghoneycutt",
   "summary": "Manage SELinux",
-  "license": "Apache License, Version 2.0",
+  "license": "Apache-2.0",
   "source": "git://github.com/ghoneycutt/puppet-module-selinux.git",
   "project_page": "https://github.com/ghoneycutt/puppet-module-selinux",
   "issues_url": "https://github.com/ghoneycutt/puppet-module-selinux/issues",
   "requirements": [
-    {
-      "name": "pe",
-      "version_requirement": "3.2.x"
-    },
     {
       "name": "puppet",
       "version_requirement": "3.x"
@@ -49,10 +45,6 @@
   ],
   "description": "manage selinux",
   "dependencies": [
-    {
-      "name": "puppetlabs/stdlib",
-      "version_requirement": ">= 3.2.0"
-    },
     {"name":"puppetlabs/stdlib","version_requirement":">= 3.2.0"}
   ]
 }
